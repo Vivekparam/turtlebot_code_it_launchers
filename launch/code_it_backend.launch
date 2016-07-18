@@ -1,0 +1,7 @@
+<launch>
+	<include file="$(find code_it)/launch/app.launch" />
+	<include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch" />
+	<include file="$(find code_it_turtlebot)/launch/code_it_turtlebot.launch" />
+	<node name="location_db" pkg="location_server" type="location_server_node.py" />
+	<node name="soundplay" pkg="sound_play" type="soundplay_node.py" />
+</launch>
