@@ -19,11 +19,8 @@ roslaunch turtlebot_rviz_launchers view_navigation.launch
 ### Also on desktop: (teleop - make sure to setrobot)
 roslaunch kobuki_keyop keyop.launch 
 
-### on Turtlebot: (code_it backend)
+### on Turtlebot: (code_it backend, includes sound_play)
 roslaunch turtlebot_code_it_launchers code_it_backend.launch
-
-### On Turtlebot: (sound play)
-rosrun sound_play soundplay_node.py 
 
 ### On Turtlebot:(blinky)
 roscd blinky/frontend; gulp serve; // will serve on :5001
