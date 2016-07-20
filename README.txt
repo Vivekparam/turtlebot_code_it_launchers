@@ -20,6 +20,7 @@ roslaunch turtlebot_rviz_launchers view_navigation.launch
 roslaunch kobuki_keyop keyop.launch 
 
 ### on Turtlebot: (code_it backend, includes sound_play)
+nvm use node 0.10.40
 roslaunch turtlebot_code_it_launchers code_it_backend.launch
 
 ### On Turtlebot:(blinky)
