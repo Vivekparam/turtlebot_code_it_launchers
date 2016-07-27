@@ -1,11 +1,13 @@
 ## To run code it:
 setup:
-install node through nvm
-sudo apt-get libgif-dev
-install pip
-upgrade pymongo to 3.3
-install sound play (something like sudo apt-get install ros-indigo-sound-play )
-copy hcrlab_map.yaml from turtlebot_code_it_launchers/ to home/turtlebot/
+  install node through nvm
+  sudo apt-get libgif-dev
+  install pip
+  upgrade pymongo to 3.3
+  install sound play (something like sudo apt-get install ros-indigo-sound-play )
+  copy hcrlab_map.yaml from turtlebot_code_it_launchers/ to home/turtlebot/
+  copy hcrlab_map.pgm from turtlebot_code_it_launchers/ to home/turtlebot/
+  Edit /home/turtlebot/hcrlab_map.yaml's first line to point to /home/turtlebot/hcrlab_map.pgm
 
 ### On Turtlebot: 
 roscore
